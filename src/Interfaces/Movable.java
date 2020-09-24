@@ -1,6 +1,6 @@
 package Interfaces;
 
 public interface Movable {
-    void run();
-    void jump();
+    boolean run(int j);
+    boolean jump(double j);
 }
